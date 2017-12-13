@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title> Admin Portal </title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="blue darken-4">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><i class="material-icons">blur_on</i>Your Friendly Customer Support</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">Log out</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container login-card">
+        <div class="col s12 m6">
+            <div class="card-panel">
+                <div class="card-content">
+                    <h5 class="card-title">Please enter credentials</h5>
+                </div>
+                <div class="card-content">
+                    <form class="col s12">
+                        <div class="input-field col s12">
+                            <input id="username" type="text" class="validate">
+                            <label for="username" data-error="wrong" data-success="right">Username</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password" data-error="wrong" data-success="right">Password</label>
+                        </div>
+                        <div class="input-field col s12 login-button">
+                            <a class="waves-effect waves-light btn blue darken-3">Log in</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title> Admin Portal </title>
+</head>
+
+<body>
+<div class="container-fluid">
+    <nav class="blue darken-4">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><i class="material-icons">blur_on</i>Your Friendly Customer Support</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Log out</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="container content">
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col s3"><a class="active" href="#test1">Upload file</a></li>
+                <li class="tab col s3"><a href="#test2">Enter emails</a></li>
+            </ul>
+        </div>
+        <div class="row" id="test1">
+            <div class="col s12">
+                <div class="card">
+                    <form action="#">
+                        <div class="container card-content card-wrapper">
+                            <div class="row success-message">
+                                <i class="material-icons left">error</i>
+                                <label class="badge left success-message"> Request has been successfully submitted</label>
+                            </div>
+
+                            <br/>
+                            <div class="file-field input-field">
+                                <div class="btn right blue darken-3">
+                                    <span>Upload</span>
+                                    <input type="file">
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text" placeholder="Upload a text file">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container common-submit-pane">
+                            <div class="row">
+                                <p>Response will be sent to the information security center. Just wait and watch the passwords getting reset ;)</p>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s9">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Recipient</label>
+                                </div>
+                                <div class="input-field col s3 email-label right">
+                                    <span class="badge">@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="input-field s3 button-centered">
+                                <a class="waves-effect waves-light btn grey lighten-1">Reset</a>
+                                <a class="waves-effect waves-light btn blue darken-3">Submit</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="test2" class="col s12">
+            <div class="card-panel">
+                <div class="container card-content card-wrapper">
+                    <div class="row error-message">
+                        <i class="material-icons left">error</i>
+                        <label class="badge left error-message"> Something went wrong. Our technical team is working on it.</label>
+                    </div>
+                    <br/>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                    <label for="icon_prefix2">Enter emails</label>
+                                </div>
+                            </div>
+                            <div class="container common-submit-pane">
+                                <div class="row">
+                                    <div class="input-field col s9">
+                                        <input id="last_name1" type="text" class="validate">
+                                        <label for="last_name1">Recipient</label>
+                                    </div>
+                                    <div class="input-field col s3 email-label right">
+                                        <span class="badge">@gmail.com</span>
+                                    </div>
+                                </div>
+                                <div class="input-field s3 button-centered">
+                                    <a class="waves-effect waves-light btn grey lighten-1">Reset</a>
+                                    <a class="waves-effect waves-light btn blue darken-3">Submit</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+        src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"
+        integrity="sha256-xI/qyl9vpwWFOXz7+x/9WkG5j/SVnSw21viy8fWwbeE="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('ul.tabs').tabs();
+    });
+</script>
+</body>
+</html>

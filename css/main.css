@@ -1,0 +1,74 @@
+.login-card {
+    width: 30%;
+    margin-top: 10%;
+}
+
+.login-button {
+    margin-top: 2.5rem;
+    margin-left: 17.2rem;
+}
+
+.content {
+    margin-top: 1rem;
+}
+
+.tabs .tab a {
+    color: #1976d2;
+}
+
+.tab a.active {
+    background-color: transparent;
+    color: #0d47a1;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #0d47a1;
+}
+
+.tabs .indicator {
+    height: 0.15rem;
+    background-color: #0d47a1;
+}
+
+.common-submit-pane {
+    width: 30rem;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+.common-submit-pane .button-centered {
+    margin-left: 6.5rem;
+}
+
+.btn {
+    height: 2.75rem;
+    line-height: 2.75rem;
+}
+
+.file-field .btn {
+    height: 2.75rem;
+    line-height: 2.75rem;
+}
+
+.card .card-wrapper {
+    width: 80%;
+}
+
+.email-label {
+    margin-top: 2rem;
+}
+
+.error-message {
+    color: red;
+    font-size: 1em;
+}
+
+.success-message {
+    color: green;
+    font-size: 1em;
+}
+
+textarea.materialize-textarea {
+    min-height: 5rem;
+}
